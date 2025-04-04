@@ -15,7 +15,7 @@ Data obtained from the [palmerpenguins library](https://github.com/allisonhorst/
 st.sidebar.header('User Input Features')
 
 st.sidebar.markdown("""
-[Example CSV input file](https://github.com/shazri/data_streamlit/blob/master/penguins_example.csv)
+[Example CSV input file](https://raw.githubusercontent.com/shazri/data_streamlit/refs/heads/master/penguins_example.csv)
 """)
 
 # Collects user input features into dataframe
@@ -42,7 +42,7 @@ else:
 
 # Combines user input features with entire penguins dataset
 # This will be useful for the encoding phase
-penguins_raw = pd.read_csv('https://raw.githubusercontent.com/dataprofessor/data/master/penguins_cleaned.csv')
+penguins_raw = pd.read_csv('https://raw.githubusercontent.com/shazri/data_streamlit/refs/heads/master/penguins_cleaned.csv')
 penguins = penguins_raw.drop(columns=['species'], axis=1)
 df = pd.concat([input_df,penguins],axis=0)
 
