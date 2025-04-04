@@ -15,7 +15,7 @@ Data obtained from the [palmerpenguins library](https://github.com/allisonhorst/
 st.sidebar.header('User Input Features')
 
 st.sidebar.markdown("""
-[Example CSV input file](https://raw.githubusercontent.com/dataprofessor/data/master/penguins_example.csv)
+[Example CSV input file](https://github.com/shazri/data_streamlit/blob/master/penguins_example.csv)
 """)
 
 # Collects user input features into dataframe
