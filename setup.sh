@@ -3,7 +3,8 @@
 # managing system resources, and performing other routine tasks in Unix/Linux systems.
 # ----------------------------------------------------------------------------------------------
 
-
+# Tilde represents the user's home directory. The shell prompt is showing that your current 
+# directory is your home directory. 
 mkdir -p ~/.streamlit/
 
 echo "\
