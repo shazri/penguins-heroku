@@ -7,6 +7,11 @@
 # directory is your home directory. 
 mkdir -p ~/.streamlit/
 
+# echo is to write
+# square bracket is a command
+# port , get the port out from app to wild
+# CORS provides a mechanism for servers to intentionally relax this restriction, allowing controlled access to resources from other origins.
+# headless , run without GUI
 echo "\
 [server]\n\
 port = $PORT\n\
